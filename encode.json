@@ -1,0 +1,20 @@
+{
+    "compact": true,
+    "controlFlowFlattening": true,
+    "controlFlowFlatteningThreshold": 0.75,
+    "deadCodeInjection": true,
+    "deadCodeInjectionThreshold": 0.4,
+    "debugProtection": true,
+    "disableConsoleOutput": true,
+    "identifierNamesGenerator": "hexadecimal",
+    "log": false,
+    "renameGlobals": false,
+    "rotateStringArray": true,
+    "selfDefending": true,
+    "unicodeEscapeSequence": true,
+	"exclude": [
+		"element",
+		"vendor",
+		"vue"
+	]
+}

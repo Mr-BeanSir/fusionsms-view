@@ -1,0 +1,15 @@
+@import './base.css';
+
+.route,
+.route:visited,
+.route:hover{
+    font-size: 13px;
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+@media (max-width: 1024px) {
+ #app {
+     width: 1024px;
+ }
+}
