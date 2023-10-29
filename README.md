@@ -1,35 +1,9 @@
-# fusionsms
+1.npm install
 
-This template should help get you started developing with Vue 3 in Vite.
+2.修改根目录下.env文件信息，development为开发环境后端地址，production为线上环境后端地址
 
-## Recommended IDE Setup
+3.npm run dev 本地运行
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+编译为 npm run build
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+PS：程序需配合fusionsms后端使用
